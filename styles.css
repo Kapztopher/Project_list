@@ -10,25 +10,17 @@ h1{
    
 }
 h2{
-    margin: 30px;
-    padding: 40px;
-    border: 10px solid rgb(160, 169, 137);
-    background-color: rgb(230, 201, 115);
-    max-width: fit-content;
-    border-radius: 28px;
-    color: brown;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: 'Roboto Condensed', sans-serif;
+   
 }
+
 
 
 
 
 h4{
 }
-p{
-    
+p{  
+    float: right;
     margin: 30px;
     padding: 40px;
     border: 10px solid rgb(160, 169, 137);
@@ -38,7 +30,7 @@ p{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    max-width: fit-content;
+    max-width: 400px;
 }
 figcaption{
     margin: 5px;
@@ -55,6 +47,22 @@ tr{
     margin: 10px;
     padding: 5px;
     border: 5px solid, rgb(160, 169, 137);
+}
+
+.proj_heading{
+    margin: 30px;
+    margin-top: 200px;
+    padding: 40px;
+    border: 10px solid rgb(160, 169, 137);
+    background-color: rgb(230, 201, 115);
+    max-width: fit-content;
+    border-radius: 28px;
+    color: brown;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: fit-content;
+
 }
 
 .space_large{
@@ -90,7 +98,7 @@ tr{
 }
 .title_hmepge    {
 
-    margin: 30px;
+    margin: 15px;
     padding: 10px;
     border-radius: 28px;
     background-color: rgb(230, 201, 115);
@@ -98,15 +106,36 @@ tr{
     border: 10px solid rgb(160, 169, 137);
     font-family: "sofia", sans-serif;
     text-align: center;
-    font-size: 44px;
+    font-size: 33px;
     width: 33%;
     position: fixed;
     left: 50%;
     top: 0px;
+    max-width: fit-content;
+  
   
 }
 
+.title_hmepge_lft   {
+
+    margin: 15px;
+    padding: 10px;
+    border-radius: 28px;
+    background-color: rgb(230, 201, 115);
+    color: brown;
+    border: 10px solid rgb(160, 169, 137);
+    font-family: "sofia", sans-serif;
+    text-align: center;
+    font-size: 33px;
+    width: 33%;
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    max-width: fit-content;
+}
+
 .proj_menu  {
+   
     margin: 30px;
     padding: 40px;
     border-radius: 28px;
