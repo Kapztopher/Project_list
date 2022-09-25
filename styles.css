@@ -6,19 +6,8 @@ body{
  
 }
 
-h1{
-   
-}
-h2{
-   
-}
 
 
-
-
-
-h4{
-}
 p{  
     float: right;
     margin: 30px;
@@ -59,7 +48,7 @@ tr{
     border-radius: 28px;
     color: brown;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 38px;
     font-family: 'Roboto Condensed', sans-serif;
     max-width: fit-content;
 
@@ -160,4 +149,20 @@ tr{
     font-stretch: expanded;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+}
+
+
+.proj_SS    {
+    float: right;
+    margin: 15px;
+    padding: 10px;
+    border: 10px solid rgb(160, 169, 137);
+    background-color: rgb(230, 201, 115);
+    border-radius: 28px;
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    max-width: 400px;
+
 }
