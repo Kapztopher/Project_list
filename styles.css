@@ -1,14 +1,39 @@
-body{
- background-image: url('./index_bckgnd.jpeg');
- background-size: 100%;
- background-repeat: repeat-y;
+.indexbody{
+    background-image: url('./index_bckgnd.jpeg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
 
- 
+.lagedbody{
+    background-image: url('./lagedbkgnd.jpeg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+footer{
+  
+    width: 100%;
+    border: 10px solid rgb(160, 169, 137);
+    border-radius: 28px;
+    background-color: rgb(230, 201, 115); 
+}
+p{
+    margin: 30px;
+    padding: 40px;
+    border: 10px solid rgb(160, 169, 137);
+    background-color: rgb(230, 201, 115);
+    border-radius: 28px;
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    max-width: 900px;
 }
 
 
 
-p{  
+
+.rightpara{  
     float: right;
     margin: 30px;
     padding: 40px;
@@ -152,8 +177,8 @@ tr{
 }
 
 
-.proj_SS    {
-    float: right;
+.proj_SS_right    {
+
     margin: 15px;
     padding: 10px;
     border: 10px solid rgb(160, 169, 137);
@@ -163,6 +188,22 @@ tr{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    max-width: 400px;
+    max-width: fit-content;
+
+
+
+}
+.proj_SS   {
+    margin: 15px;
+    padding: 10px;
+    border: 10px solid rgb(160, 169, 137);
+    background-color: rgb(230, 201, 115);
+    border-radius: 28px;
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    max-width: fit-content;
+
 
 }
