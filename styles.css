@@ -18,7 +18,9 @@ footer{
     background-color: rgb(230, 201, 115); 
 }
 p{
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 40px;
     border: 10px solid rgb(160, 169, 137);
     background-color: rgb(230, 201, 115);
@@ -26,16 +28,19 @@ p{
     color: darkblue;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000;
     text-align: center;
-    max-width: 900px;
+    max-width: 60%;
 }
 
 
 
 
-.rightpara{  
-    float: right;
-    margin: 30px;
+.para{  
+ 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 40px;
     border: 10px solid rgb(160, 169, 137);
     background-color: rgb(230, 201, 115);
@@ -44,7 +49,7 @@ p{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    max-width: 400px;
+    max-width: 60%;
 }
 figcaption{
     margin: 5px;
@@ -62,20 +67,24 @@ tr{
     padding: 5px;
     border: 5px solid, rgb(160, 169, 137);
 }
-
+.clear{
+    clear: both;
+}
 .proj_heading{
-    margin: 30px;
+    margin-bottom: 20x;
+    margin-left: 30;
+    margin-right: 20;
     margin-top: 200px;
-    padding: 40px;
+    padding: 28px;
     border: 10px solid rgb(160, 169, 137);
     background-color: rgb(230, 201, 115);
     max-width: fit-content;
     border-radius: 28px;
     color: brown;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 22px;
     font-family: 'Roboto Condensed', sans-serif;
-    max-width: fit-content;
+    max-width: 25%;
 
 }
 
@@ -120,7 +129,7 @@ tr{
     border: 10px solid rgb(160, 169, 137);
     font-family: "sofia", sans-serif;
     text-align: center;
-    font-size: 33px;
+    font-size: 15px;
     width: 33%;
     position: fixed;
     left: 50%;
@@ -140,7 +149,7 @@ tr{
     border: 10px solid rgb(160, 169, 137);
     font-family: "sofia", sans-serif;
     text-align: center;
-    font-size: 33px;
+    font-size: 15px;
     width: 33%;
     position: fixed;
     top: 0px;
@@ -150,7 +159,9 @@ tr{
 
 .proj_menu  {
    
-    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     padding: 40px;
     border-radius: 28px;
     border: 8px solid rgb(160, 169, 137);
@@ -160,11 +171,15 @@ tr{
     font-stretch: expanded;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+    max-width: 60%;
   
 }
 
-.dev_stage_menu {
-    margin: 30px;
+.dev_stage {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
     padding: 40px;
     border-radius: 28px;
     border: 8px solid rgb(160, 169, 137);
@@ -174,12 +189,15 @@ tr{
     font-stretch: expanded;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+    max-width: fit-content;
 }
 
 
-.proj_SS_right    {
+.proj_fig   {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
-    margin: 15px;
     padding: 10px;
     border: 10px solid rgb(160, 169, 137);
     background-color: rgb(230, 201, 115);
@@ -188,22 +206,7 @@ tr{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    max-width: fit-content;
-
-
-
-}
-.proj_SS   {
-    margin: 15px;
-    padding: 10px;
-    border: 10px solid rgb(160, 169, 137);
-    background-color: rgb(230, 201, 115);
-    border-radius: 28px;
-    color: darkblue;
-    font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    max-width: fit-content;
+    max-width: 400px;
 
 
 }
